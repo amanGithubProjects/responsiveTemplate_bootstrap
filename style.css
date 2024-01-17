@@ -1,0 +1,72 @@
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section_head{
+    columns: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section h2.section_head:after{
+    background: #e74c3c;
+    content: "";
+    display: block;
+    width: 350px;
+    height: 4px;
+    margin: 10px auto;
+}
+
+#header{
+    color: white;
+    background-color: #e74c3c;
+}
+#logo{
+    font-size: 2rem ;
+    
+}
+#menu{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+  color: white;
+  padding: 15px 10px;
+  display: block;
+  text-decoration: none;
+}
+#menu li a:hover{
+  background-color: #d63031;
+}
+
+/* BANNER */
+#banner{
+    background:url('./images/bannerOf_Groot.jpg') no-repeat 0 0 ;
+    background-size: cover;
+    
+}
+.banner_title{
+    padding-top: 5rem;
+}
+.banner_title h1{
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.banner_title p.lead{
+   color: #fff;
+   background: rgba(231,76,60,0.8);
+   padding: 10px;
+}
+.service_box{
+    text-align: center;
+}
+.service_box i.fa{
+  color: #e74c3c;
+  font-size: 70px;
+  margin-top: 15px;
+}
